@@ -1,5 +1,9 @@
-# 別集序：逐句駢散與內容類型標註
+# 別集序與墓誌銘：文體選擇及其時代變化
 
-靜態瀏覽網站。正文依本地來源逐句切分；DeepSeek 僅輸出 sentence id 的標籤，系統驗證所有 id 完整覆蓋，模型不回傳正文，避免改字與漏句。
+唯一發布目錄為 `docs/`：
 
-GitHub Pages 請設定由 `main` branch 的 `/site` 發布。
+- `docs/index.html`：頁面
+- `docs/dashboard.js`：可視化邏輯
+- `docs/dashboard.json`：分析數據
+
+GitHub Pages 設定為由 `main` branch 的 `/docs` 發布。不再維護 `site/` 或帶版本號的重複資產。
